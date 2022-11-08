@@ -38,6 +38,7 @@ body {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    font-family: var(--paragraph-font);
 }
 
 header {
@@ -50,6 +51,7 @@ header {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+    font-family: var(--paragraph-font);
 }
 
 .logo {
@@ -59,17 +61,20 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    font-family: var(--paragraph-font);
     background-color: var(--nav-background-color);
 }
 
 nav a {
     text-decoration: none;
     color: var(--nav-link-color);
+    font-family: var(--paragraph-font);
     text-align: center;
     padding: 35px;
 }
 
 nav a:hover {
+    font-family: var(--paragraph-font);
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
 }
@@ -124,6 +129,7 @@ h4 {
 }
 
 .book, .join {
+    font-family: var(--paragraph-font);
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
     text-decoration: none;
@@ -134,6 +140,7 @@ h4 {
 }
 
 .book:hover, .join:hover {
+    font-family: var(--paragraph-font);
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
 }
@@ -206,6 +213,7 @@ h2 {
 }
 
 .msg {
+    font-family: var(--paragraph-font);
     background-color:var(--paragraph-background-color);
     padding: 35px;
     grid-column: 6/10;
@@ -220,12 +228,14 @@ h2 {
 }
 
 .msg p {
+    font-family: var(--paragraph-font);
     color: var(--paragraph-color-on-color);
     font-size: .8em;
     padding-bottom: 15px;
 }
 
 footer {
+    font-family: var(--paragraph-font);
     background-color:var(--header-footer-background-color);
     color: var(--headline-color-on-color);
     margin-top: 3em;
@@ -235,11 +245,13 @@ footer {
 }
 
 footer p {
+    font-family: var(--paragraph-font);
     color: var(--nav-hover-link-color);
     font-size: 1.2em;
 } 
 
 footer p a:hover {
+    font-family: var(--paragraph-font);
     text-decoration: underline;
 }
 
@@ -306,6 +318,7 @@ footer a:hover {
 }
 
 .rivers-title {
+    font-family: var(--heading-font);
     grid-column: 1/8;
     grid-row: 1;
     color: var(--headline-color-on-white);
@@ -332,12 +345,17 @@ footer a:hover {
 }
 
 .salmon_river_details {
+    font-family: var(--paragraph-font);
     grid-column: 2/5;
     grid-row: 3/7;
     color: var(--paragraph-color-on-color);
     text-align: left;
     padding: 2em;
     z-index: 3;
+}
+
+.salmon_river_details h2 {
+    font-family: var(--heading-font);
 }
 
 .salmon_river_img {
@@ -367,12 +385,17 @@ footer a:hover {
 }
 
 .gray_canyon_details {
+    font-family: var(--paragraph-font);
     grid-column: 4/7;/*2/5*/
     grid-row: 11/15;
     color: var(--paragraph-color-on-color);
     text-align: left;
     padding: 2em;
     z-index: 3;
+}
+
+.gray_canyon_details h2 {
+    font-family: var(--heading-font);
 }
 
 .gray_canyon_img {
@@ -402,6 +425,7 @@ footer a:hover {
 }
 
 .grand_canyon_details {
+    font-family: var(--paragraph-font);
     grid-column: 2/5;
     grid-row: 19/23;
     background-color:var(--paragraph-background-color);
@@ -409,6 +433,10 @@ footer a:hover {
     padding: 2em;
     text-align: left;
     z-index: 2;
+}
+
+.grand_canyon_details h2 {
+    font-family: var(--heading-font);
 }
 
 .grand_canyon_img {
@@ -430,11 +458,13 @@ footer a:hover {
 }
 
 .question_answer_pair {
+    font-family: var(--heading-font);
     grid-column: 2;
     text-align: left;
 }
 
 .question_answer_pair p {
+    font-family: var(--paragraph-font);
     padding-left: 5em;
     padding-bottom: .5em;
 }
